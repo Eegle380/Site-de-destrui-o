@@ -1,0 +1,85 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+ 
+}
+body{
+   background: #000000;
+    
+
+}
+h1, h2{
+  user-select: none;
+
+
+}
+#container1{
+  position: absolute;
+  width: 800px;
+
+ 
+
+}
+.stylelink{
+    text-decoration: none;
+    position: relative;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.2s;
+    z-index: 10;
+    color: #AAA;
+    
+    
+
+
+
+}
+.stylelink:hover{
+    font-size: 26px;
+    color: #ffffff;
+
+
+}
+#vmc:hover #vmcimg {
+   background-image: linear-gradient(rgba(2,2,2,.50),rgba(2,2,2,.50)100% ), url("https://imagens.brasil.elpais.com/resizer/KWuvMRrVpMi7pwKYn6lGBXlkND0=/768x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/OHAOYBGR3ZCENHTX3N5NHIEWS4.jpg");
+   opacity: 1;
+  
+
+}
+
+#vmc1:hover #vmcimg1 {
+  background-image: linear-gradient(rgba(2,2,2,.50),rgba(2,2,2,.50)100% ), url("https://www.cecom.unicamp.br/wp-content/uploads/2020/02/1800x1200_coronavirus_1.jpg");
+  opacity: 1;
+ 
+
+}
+
+
+#vmcimg1{
+  width: 700px;
+  height: 500px;
+  color: transparent;
+  opacity: 0;
+  position: absolute;
+  left: 620px;
+  top: 0px;
+  z-index: 1;
+  transition: 0.5s;
+ 
+  
+}
+
+
+#vmcimg{
+   width: 700px;
+   height: 500px;
+   color: transparent;
+   opacity: 0;
+   position: absolute;
+   left: 550px;
+   top: 0px;
+   z-index: 1;
+   transition: 0.5s;
+  
+   
+}
